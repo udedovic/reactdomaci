@@ -1,10 +1,16 @@
 import React from "react";
+import './SongCss.css';
 
-function Song({song}) {
+function Song({song, removeSong}) {
+
+    function handleRemoveClick(){
+        removeSong(song.id);
+    }
+
     return(
-        <div style={{display:"flex"}}>
-            <li style={{color:'white'}}>{song.name}</li>
-            <button>X</button>
+        <div class = "container">
+            <li class="item">{song.name}</li>
+            <button class="Xbtn" onClick={handleRemoveClick}>X</button>
         </div>
     );
 }

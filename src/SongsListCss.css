@@ -1,0 +1,16 @@
+.list{
+    list-style-type: square;
+    margin: 10px;
+}
+
+.pozadina{
+    margin-left: 10px;
+    background-size: 500px, 500px, auto;
+    display: flex;
+    justify-content: center;
+    background-color: #e6ffff;
+    background: url('./clef.png');
+    background-size: 200px 400px;
+    background-repeat: no-repeat;
+    background-position: right bottom, left top;
+}
