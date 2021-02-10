@@ -25,7 +25,7 @@ function SongsForm({addSong}){
     }
 
     return(
-      <form class="main-form" onSubmit={handleSubmit}>
+      <form class="main-form" onSubmit={handleSubmit} >
           <input autoComplete="off" onChange={handleSongInputChange} value={song.name} name="name" type="text"/>
           <button class="addbtn" type="submit">Add</button>
       </form>  

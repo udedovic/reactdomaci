@@ -30,7 +30,7 @@ function Home(){
     }
 
     return(
-        <div style={{backgroundColor:'#e6ffff'}}>
+        <div style={{backgroundColor:'#e6ffff', height:'100vh'}}>
             <h1>♪ List of songs ♪</h1>
             <SongsForm addSong={addSong} />
             <SongList songs={songs} removeSong={removeSong}/>

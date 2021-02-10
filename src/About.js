@@ -19,7 +19,7 @@ function About() {
   };
 
   return (
-    <div>
+    <div style={{backgroundColor:'#e6ffff', height:'100vh'}}>
       <h1>About</h1>
       <br></br>
       <h4>
