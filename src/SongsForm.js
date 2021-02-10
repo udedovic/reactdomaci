@@ -9,7 +9,6 @@ function SongsForm({addSong}){
     const [song, setSong] = useState({
         id: "",
         name: ""
-        // artist: ""
     });
 
     function handleSongInputChange(e){
